@@ -1,0 +1,35 @@
+@mixin head1 {
+  font-size: 3.2em;
+  font-family: "BalooTamma2SemiBold";
+  line-height: 2em;
+}
+
+@mixin head2 {
+  font-size: 2.4em;
+  font-family: "BalooTamma2SemiBold";
+  line-height: 1.2em;
+}
+
+@mixin head3 {
+  font-size: 1.6em;
+  font-family: "BalooTamma2SemiBold";
+  line-height: 1em;
+}
+
+@mixin large {
+  font-size: 1.3em;
+  font-family: "BalooTamma2SemiBold";
+  line-height: 1em;
+}
+
+@mixin common {
+  font-size: 1em;
+  font-family: "BalooTamma2Regular";
+  line-height: 1.6em;
+}
+
+@mixin common-light {
+  font-size: 0.8em;
+  font-family: "BalooTamma2Regular";
+  line-height: 1.4em;
+}

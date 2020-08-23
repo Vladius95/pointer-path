@@ -1,0 +1,18 @@
+@import "src/css/design/colors";
+@import "src/css/design/typography";
+
+.article {
+  display: grid;
+  max-width: 640px;
+  place-content: center;
+
+  margin: 0 auto;
+  padding: 84px 0;
+
+  &__title {
+    margin-bottom: 32px;
+    color: $color_sand;
+    text-align: center;
+    @include head2;
+  }
+}

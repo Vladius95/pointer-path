@@ -1,0 +1,46 @@
+@import "src/css/design/colors";
+@import "src/css/design/typography";
+
+.grid-menu {
+  &__title {
+    margin-bottom: 64px;
+    color: $color_sand;
+    text-align: center;
+    @include head2;
+  }
+
+  &__list {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+  }
+
+  &__item {
+    width: 240px;
+    text-align: center;
+    border: 2px solid $color_gray;
+    border-radius: 12px;
+
+    box-shadow: 0 20px 25px -5px rgba($color_gray, 0.2),
+      0 10px 10px -5px rgba($color_gray, 0.1);
+    transform: scale(1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+      box-shadow: 0 20px 30px -5px rgba($color_gray, 0.2),
+        0 10px 20px 5px rgba($color_gray, 0.1);
+      transform: scale(1.1);
+    }
+  }
+
+  &__link {
+    padding: 24px 0;
+    color: $color_blue;
+    @include large;
+  }
+}

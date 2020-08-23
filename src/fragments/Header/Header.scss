@@ -1,0 +1,32 @@
+@import "src/css/design/colors";
+@import "src/css/design/typography";
+
+.header {
+  display: grid;
+  height: 350px;
+  background-color: $color_blue;
+
+  &__repository-link {
+    color: $color_sand;
+    @include large;
+  }
+
+  &__top-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    padding-top: 24px;
+  }
+
+  &__site-name {
+    color: $color_sand;
+    @include large;
+  }
+
+  &__description {
+    color: $color_sand;
+    text-align: center;
+    @include head1;
+  }
+}

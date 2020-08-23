@@ -1,0 +1,8 @@
+.menu-list {
+  margin: 84px;
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+}

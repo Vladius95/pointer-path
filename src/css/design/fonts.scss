@@ -1,0 +1,14 @@
+@import "src/css/mixins";
+
+// BalooTamma2
+@include fontFace(
+  "BalooTamma2Regular",
+  "fonts/BalooTamma2/BalooTamma2-Regular",
+  300
+);
+
+@include fontFace(
+  "BalooTamma2SemiBold",
+  "fonts/BalooTamma2/BalooTamma2-SemiBold",
+  600
+);

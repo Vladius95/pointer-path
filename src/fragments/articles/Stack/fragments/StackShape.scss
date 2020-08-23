@@ -1,0 +1,12 @@
+@import "src/css/design/colors";
+
+.stack-shape {
+  &__block {
+    fill: $color_blue;
+    stroke: $color_sand;
+  }
+
+  &__base {
+    fill: $color_blue;
+  }
+}

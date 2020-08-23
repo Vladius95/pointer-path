@@ -1,0 +1,12 @@
+@import "src/css/design/colors";
+
+.linked-list-shape {
+  &__block {
+    fill: $color_blue;
+    stroke: $color_sand;
+  }
+
+  &__divide-line {
+    stroke: $color_sand;
+  }
+}
